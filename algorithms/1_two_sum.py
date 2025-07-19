@@ -18,5 +18,5 @@ class Solution(object):
 
 nums_ = [2, 5, 1, 17]
 d = Solution()
-for i in 7, 6, 19:
+for i in 9, 7, 6, 19:
     print(d.twoSum(nums=nums_, target=i))

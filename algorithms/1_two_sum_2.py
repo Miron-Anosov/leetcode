@@ -61,7 +61,13 @@ class Solution(object):
 
 s = Solution()
 
-assert s.twoSum([2,7,11,15], 9) == [0, 1], s.twoSum([3,3], 6)
-assert s.twoSum([3,2,4], 6) == [1,2], s.twoSum([3,2,4], 6)
-assert s.twoSum([3,3], 6) == [0,1], s.twoSum([3,3], 6)
-assert s.twoSum([3,2,3], 6) == [0,2], s.twoSum([3,2,3], 6)
+
+r1 = s.twoSum([2, 7, 11, 15], 9)
+r2 = s.twoSum([3, 2, 4], 6)
+r3 = s.twoSum([3, 3], 6)
+r4 = s.twoSum([3, 2, 3], 6)
+
+assert r1 == [0, 1], f"{r1} != [0, 1]"
+assert r2 == [1, 2], f"{r2} != [1,2]"
+assert r3 == [0,1], f"{r3} !=  [0, 1]"
+assert r4 == [0, 2], f"{r4} !=  [0,2]"
