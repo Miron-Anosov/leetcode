@@ -107,3 +107,4 @@ int main() {
 
     return 0;
 }
+// gcc 35_search_insert_position.c -o b_search
